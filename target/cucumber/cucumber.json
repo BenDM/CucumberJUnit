@@ -1,45 +1,12 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3157326059,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I open a browser",
-            "match": {
-              "location": "GoogleSearch.i_open_a_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4647501016,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I navigate to google page",
-            "match": {
-              "location": "GoogleSearch.i_navigate_to_google_page()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
       {
         "before": [
           {
             "result": {
-              "duration": 5130023154,
+              "duration": 4928688857,
               "status": "passed"
             },
             "match": {
@@ -47,14 +14,14 @@
             }
           }
         ],
-        "line": 7,
-        "name": "Validate google search text field",
+        "line": 5,
+        "name": "Google Search 2",
         "description": "",
-        "id": "google-search;validate-google-search-text-field",
+        "id": ";google-search-2",
         "after": [
           {
             "result": {
-              "duration": 711228816,
+              "duration": 653987486,
               "status": "passed"
             },
             "match": {
@@ -67,7 +34,31 @@
         "steps": [
           {
             "result": {
-              "duration": 1108729831,
+              "duration": 109964900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open a browser",
+            "match": {
+              "location": "GoogleSearch.i_open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1029853468,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to google page",
+            "match": {
+              "location": "GoogleSearch.i_navigate_to_google_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88794292,
               "status": "passed"
             },
             "line": 8,
@@ -77,13 +68,25 @@
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TSTINSC-8"
+          }
         ]
       }
     ],
-    "name": "Google Search",
+    "name": "",
     "description": "",
-    "id": "google-search",
+    "id": "",
     "keyword": "Feature",
-    "uri": "GoogleSearch.feature"
+    "uri": "GoogleSearch.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@TSTINSC-6"
+      }
+    ]
   }
 ]
