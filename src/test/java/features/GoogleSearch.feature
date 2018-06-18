@@ -1,9 +1,8 @@
-Feature: Google Search
+@TSTINSC-6
+Feature: 
 
-  Background: 
+  @TSTINSC-8
+  Scenario: Google Search 2
     Given I open a browser
-    And I navigate to google page
-
-  Scenario: Validate google search text field
+    When I navigate to google page
     Then I validate the search tesxt field
-
