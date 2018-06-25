@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5068620122,
+  "duration": 5239927262,
   "status": "passed"
 });
 formatter.scenario({
@@ -49,25 +49,25 @@ formatter.match({
   "location": "GoogleSearch.i_open_a_browser()"
 });
 formatter.result({
-  "duration": 106120366,
+  "duration": 104263799,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.i_navigate_to_google_page()"
 });
 formatter.result({
-  "duration": 1437541251,
+  "duration": 1136822638,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.i_validate_the_search_tesxt_field()"
 });
 formatter.result({
-  "duration": 116980738,
+  "duration": 115763039,
   "status": "passed"
 });
 formatter.after({
-  "duration": 675426554,
+  "duration": 690359895,
   "status": "passed"
 });
 });
