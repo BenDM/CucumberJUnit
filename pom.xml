@@ -5,6 +5,25 @@
   <version>0.0.1-SNAPSHOT</version>
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		 <!--XRay Properties -->
+ 
+        <!--IN PROFILE ~/.m2/settings.xml-->
+        <xray.jiraURL>http://localhost:8081</xray.jiraURL>
+        <xray.resultsFormat>JUNIT</xray.resultsFormat>
+        <xray.username>bendouadia</xray.username>
+        <xray.password>mohammed</xray.password>
+ 
+        <xray.projectKey>XrayProject</xray.projectKey>
+        
+<!--         <xray.testExecKey></xray.testExecKey>
+        <xray.testPlanKey></xray.testPlanKey>
+        <xray.testEnvironments></xray.testEnvironments>
+        <xray.fixVersion></xray.fixVersion>
+        <xray.revision></xray.revision> -->
+       
+ 
+        <xray.surefire.location>target/cucumber/cucumber.json</xray.surefire.location>
+        <!--End Xray Properties -->
 	</properties>
   <dependencies>
 <dependency>
@@ -34,6 +53,7 @@
 </dependency>
 
   </dependencies>
+  
       <build>
         <pluginManagement>
             <plugins>
