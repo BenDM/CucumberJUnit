@@ -5,25 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		 <!--XRay Properties -->
- 
-        <!--IN PROFILE ~/.m2/settings.xml-->
-        <xray.jiraURL>http://localhost:8081</xray.jiraURL>
-        <xray.resultsFormat>JUNIT</xray.resultsFormat>
-        <xray.username>bendouadia</xray.username>
-        <xray.password>mohammed</xray.password>
- 
-        <xray.projectKey>XrayProject</xray.projectKey>
-        
-<!--         <xray.testExecKey></xray.testExecKey>
-        <xray.testPlanKey></xray.testPlanKey>
-        <xray.testEnvironments></xray.testEnvironments>
-        <xray.fixVersion></xray.fixVersion>
-        <xray.revision></xray.revision> -->
-       
- 
-        <xray.surefire.location>target/cucumber/cucumber.json</xray.surefire.location>
-        <!--End Xray Properties -->
 	</properties>
   <dependencies>
 <dependency>
@@ -53,52 +34,7 @@
 </dependency>
 
   </dependencies>
-  
-      <build>
-        <pluginManagement>
-            <plugins>
-             <plugin>
-                  <groupId>org.apache.maven.plugins</groupId>
-                  <artifactId>maven-surefire-plugin</artifactId>
-                  <version>2.19.1</version>
-                  <configuration>
-                      <testFailureIgnore>true</testFailureIgnore>
-                  </configuration>
-             </plugin>
-         </plugins>
-      </pluginManagement>
-    </build>
  
-    <reporting>
-        <plugins>
-            <plugin>
-                <artifactId>maven-surefire-report-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>com.xpandit.xray</groupId>
-                <artifactId>xray-maven-plugin</artifactId>
-                <version>1.0.0</version>
-            </plugin>
-        </plugins>
-    </reporting>
- 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>xpand-plugins</id>
-            <name>xpand-plugins</name>
-            <url>http://maven.xpand-it.com/artifactory/releases</url>
-        </pluginRepository>
-    </pluginRepositories>
-<!--        <build>
-        <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
-                <configuration>
-                    <mainClass>runner.RunTest</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build> -->
+
+
 </project>
